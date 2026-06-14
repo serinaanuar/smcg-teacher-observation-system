@@ -1,4 +1,3 @@
----
 
 ## 🚀 Getting Started
 
@@ -11,33 +10,37 @@
 ### Installation
 
 1. Clone the repository
+
 ```bash
-   git clone https://github.com/yourusername/smcg-teacher-observation-system.git
+git clone https://github.com/yourusername/smcg-teacher-observation-system.git
 ```
 
 2. Install dependencies
+
 ```bash
-   cd smcg
-   composer install
+cd smcg
+composer install
 ```
 
 3. Configure environment
+
 ```bash
-   cp .env.example .env
-   # Edit .env with your database credentials
+cp .env.example .env
 ```
 
+Then open `.env` and fill in your database credentials.
+
 4. Run database migrations
+
 ```bash
-   php artisan migrate
+php artisan migrate
 ```
 
 5. Start the development server
-```bash
-   php artisan serve
-```
 
----
+```bash
+php artisan serve
+```
 
 ## 👩‍💻 My Contributions
 
